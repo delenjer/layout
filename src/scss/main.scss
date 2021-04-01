@@ -1,0 +1,26 @@
+@import "vars";
+@import "button";
+@import "highlight";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: $c-gray;
+  font-size: 1.6rem;
+}
+
+.container {
+  width: 1300px;
+  margin: 0 auto;
+}
+
+.example-2 {
+  margin-top: 2rem;
+}
+

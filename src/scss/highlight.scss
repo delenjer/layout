@@ -1,0 +1,23 @@
+.highlight {
+  background-color: #ccc;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin-top: 1rem;
+
+  &__col {
+    background-color: $c-gray;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  &__title {
+    font-size: 1.5rem;
+    font-style: italic;
+    margin: 0 0 1rem;
+  }
+}
+
+xmp {
+  margin: 0;
+}
