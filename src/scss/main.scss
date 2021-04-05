@@ -1,3 +1,4 @@
+@import "fonts";
 @import "vars";
 @import "button";
 @import "highlight";
@@ -13,10 +14,12 @@ html {
 body {
   background-color: $c-gray;
   font-size: 1.6rem;
+  overflow-y: scroll;
 }
 
 .container {
-  width: 1300px;
+  width: 100%;
+  max-width: 1300px;
   margin: 0 auto;
 }
 

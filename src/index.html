@@ -14,34 +14,21 @@
   <button class="btn" type="button">Button</button>
 
   <article class="highlight">
-    <div class="highlight__col">
-      <h2 class="highlight__title">html:</h2>
-      <xmp><button class="btn" type="button">Button</button></xmp>
-    </div>
+    <button class="highlight__btn">
+      Example code
+      <span class="icon-play3 highlight__btn--icon"></span>
+    </button>
 
-    <div class="highlight__col">
-      <h2 class="highlight__title">css:</h2>
+    <div class="highlight__wrap">
+      <div class="highlight__col">
+        <h2 class="highlight__title">html:</h2>
+        <xmp class="html-btn-primary"></xmp>
+      </div>
+      <div class="highlight__col">
+        <h2 class="highlight__title">css:</h2>
 
-      <xmp>.btn {
-  display: block;
-  color: #fff;
-  border-radius: 5px;
-  background-color: #0d6efd;
-  border: 1px solid #0d6efd;
-  padding: 0.5rem 1rem;
-  cursor: pointer;
-  outline: none;
-  transition: all 0.3s;
-
-  &:hover {
-    color: #ccc;
-  }
-
-  &:focus {
-    box-shadow: 0 0 1px 4px rgba(13,110,253,0.29);
-  }
-}
-      </xmp>
+        <xmp class="style-btn-primary"></xmp>
+      </div>
     </div>
   </article>
 
@@ -50,36 +37,26 @@
 
     <div class="btn-group-wrap">
       <button class="btn btn-lg" type="button">Button</button>
-
       <button class="btn btn-lg" type="button">Button</button>
     </div>
 
     <article class="highlight">
-      <div class="highlight__col">
-        <h2 class="highlight__title">html:</h2>
+      <button class="highlight__btn">
+        Example code
+        <span class="icon-play3 highlight__btn--icon"></span>
+      </button>
 
-        <xmp class="code-box">
-<div class="btn-group-wrap">
-  <button class="btn btn-lg" type="button">Button</button>
-  <button class="btn btn-lg" type="button">Button</button>
-</div>
-        </xmp>
-      </div>
+      <div class="highlight__wrap">
+        <div class="highlight__col">
+          <h2 class="highlight__title">html:</h2>
 
-      <div class="highlight__col">
-        <h2 class="highlight__title">css:</h2>
+          <xmp class="html-btn-group"></xmp>
+        </div>
+        <div class="highlight__col">
+          <h2 class="highlight__title">css:</h2>
 
-        <xmp class="code-box">
-.btn-lg {
-  width: 100%;
-  padding: 1rem;
-  font-size: 2rem;
-
-  &:not(:last-of-type) {
-    margin-bottom: 1rem;
-  }
-}
-        </xmp>
+          <xmp class="style-btn-lg"></xmp>
+        </div>
       </div>
     </article>
   </section>
